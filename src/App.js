@@ -14,7 +14,7 @@ class App extends Component{
 
   async componentDidMount(){
     try {
-			const response = await fetch('https://x5uryqu5pl.execute-api.us-east-1.amazonaws.com/Production');
+			const response = await fetch('');
 			let responseJson = await response.json();
 			this.setState(
 				{
