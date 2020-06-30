@@ -6,13 +6,13 @@ class App extends Component{
   constructor(props){
     super(props);
     this.state = {
-      isLoading: true,
-      datasource: {}
+      //isLoading: true,
+     // datasource: {}
 
     };
   }
 
-  async componentDidMount(){
+ /* async componentDidMount(){
     try {
 			const response = await fetch('');
 			let responseJson = await response.json();
@@ -26,10 +26,11 @@ class App extends Component{
 		} catch (error) {
 			console.error(error);
 		}
-  }
+  }*/
 
   render(){
-    let { dataSource } = this.state;
+	  return <h1>Happy Coding</h1>
+    /*let { dataSource } = this.state;
 		if (this.state.isLoading) {
 			return <div>Loading...</div>;
 		} else {
@@ -44,7 +45,7 @@ class App extends Component{
 					))}
 				</div>
 			);
-		}
+		}*/
 	}
 
   
