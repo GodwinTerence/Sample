@@ -1,0 +1,9 @@
+{
+	"auth": {
+		"sample1565f600": {
+			"service": "Cognito",
+			"providerPlugin": "awscloudformation",
+			"dependsOn": []
+		}
+	}
+}
